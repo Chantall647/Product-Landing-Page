@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sansita+Swashed&display=swap');
+
+body {
+  background-color:white;
+  margin:0;
+}
+
+#header-img {
+  width:5em;
+  float:left;
+  margin-right: 0px 0px 50px 0px;
+  position:absolute;
+  top:10px;
+  left:60px
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  background-color:#D8BFD8;
+  padding:10px;  
+  display:flex;
+  justify-content:center;
+  
+}
+/*la nav bar adaugam un hover*/
+
+.nav-link {
+  margin-right:30px;
+  color: black;
+  text-decoration:none;
+  
+}
+
+.ontop {
+  position:fixed;
+  width:100%;
+}
+
+#hero {
+  position:absolute;
+  top:15%;
+}
+
+#form {
+  text-align:center;  
+}
+
+#hero input[type="email"] {
+  width:15em;
+  height:2em;
+  border-radius:10px;
+}
+
+#hero input[type="submit"] {
+  border-radius:10px;
+  height:2em;
+  background-color: rgb(166,222,235);
+  
+}
+
+
+ .container {
+  display:flex;
+  max-width:800px;
+  margin:0 auto;
+  justify-content:center;
+}
+
+h2 {
+  font-size:2.3em;
+  font-family:'Dancing Script';
+  font-style:oblique;
+  font-weight:normal;
+  font-stretch:expanded;
+  text-align:center; 
+}
+ 
+.features {
+  width:30%;
+  box-shadow: 7px 7px 7px;
+  margin: 30px 1.66%;
+  padding:10px;
+  border-radius: 10px;
+  text-align:center;
+  margin-top:50vh;
+  line-height: 25px
+}
+ 
+.features h3 {
+  font-size:20px;
+  text-align:center;
+}
+
+.features p {
+  font-size:1em;
+  text-align:center;
+  line-height:20p;
+}
+
+.features i {
+ font-size:25px;
+ color: rgb(163,222,235);
+ 
+}
+
+#video-wrap {
+  margin-top:5%;
+}
+
+#pricing {
+  display:flex;
+  margin-top: 60px;
+  flex-direction: row;
+  justify-content:center;
+}
+
+ .product {
+  display: flex;
+  flex-direction:column;
+  width: calc(60% / 3);
+  margin: 18px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 7px 7px 7px;
+}
+
+.product > .level {
+  background-color: rgb(216, 192, 216);
+  color: black;
+  padding: 15px 10px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius:6px;
+  text-align:center;
+}
+
+.product > ul {
+   margin: 15px 0
+}
+
+.product > ul > li {
+  padding: 5px 0;
+  list-style-type:initial;
+  position:relative;
+  left:22%;
+  top:-15px;
+  font-weight:normal;
+  font-size:1.2em;  
+}
+  
+  h4 {
+  font-size:1.2em;;
+  font-weight:500;
+  text-align:center;
+}
+
+ .product > button {
+   background-color: rgb(166,222,235); 
+   border-radius:5px;
+   border:2px none;
+   margin-right:2em; 
+   margin-left:2em;
+  }
+
+.btn {
+  padding: 10 4px;
+  height: 30px;
+  border: 2px;
+  cursor: pointer;
+}
+
+#button3 {
+  position:relative;
+  top:-0.8em;
+}
+
+#button2 {
+   position:relative;
+   top:1.5em
+}
+
+#button1 {
+  position:relative;
+  top:4em
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
